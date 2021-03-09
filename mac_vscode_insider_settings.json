@@ -1,0 +1,104 @@
+{
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "css",
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.excludeLanguages": ["markdown"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.activityBar.visible": true,
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.editor.tabSizing": "shrink",
+
+  // "terminal.integrated.fontFamily": "Fira Code iScript",
+  "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.rendererType": "dom",
+
+  "kite.showWelcomeNotificationOnStartup": false,
+  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "ligaturesLimited.languages": {
+    "css, javascript": {
+      "ligaturesByContext": {
+        "comment.block": {
+          "ligatures": "0 www"
+        }
+      }
+    },
+    "html": {
+      "ligaturesByContext": {
+        "attribute_value": {
+          "ligatures": "0 www"
+        }
+      }
+    },
+    "typescript": {
+      "inherit": "javascript",
+      "ligatures": "- !="
+    },
+    "markdown": true,
+    "plaintext, json, jsonc, json5": false
+  },
+  "workbench.startupEditor": "welcomePage",
+  "workbench.sideBar.location": "right",
+  "yaml.schemas": {
+    "file:///Users/maheshkumarsoni/.vscode-insiders/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.enabled": true,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "290e2c7d-3ebb-4962-b6b7-6192d5b2cf66",
+      "enabled": true,
+      "name": "My ilocalbox Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "124e04d6-106d-410c-a2ce-bbdc39747ea7",
+      "monitor": true
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": true
+}
