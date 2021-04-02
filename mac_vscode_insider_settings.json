@@ -1,11 +1,17 @@
 {
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
   "git.autofetch": true,
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDragAndDrop": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "postcss": "css",
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -32,7 +38,6 @@
 
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
 
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
@@ -44,11 +49,10 @@
 
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "workbench.activityBar.visible": true,
   "workbench.panel.defaultLocation": "bottom",
   "workbench.iconTheme": "vscode-icons",
   "workbench.statusBar.visible": true,
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "Hyper Term Theme",
   "workbench.editor.tabCloseButton": "left",
   "workbench.editor.tabSizing": "shrink",
 
@@ -83,10 +87,10 @@
     "markdown": true,
     "plaintext, json, jsonc, json5": false
   },
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "right",
   "yaml.schemas": {
-    "file:///Users/maheshkumarsoni/.vscode-insiders/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/maheshkumarsoni/.vscode-insiders/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.enabled": true,
   "atlascode.jira.jqlList": [
@@ -100,5 +104,34 @@
     }
   ],
   "editor.minimap.enabled": false,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": "DI"
+  },
+  "prettier.singleQuote": true,
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableBell": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "explorer.openEditors.visible": 0,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.showSlider": "always",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "editor.renderIndentGuides": false,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "diffEditor.ignoreTrimWhitespace": false,
 }
