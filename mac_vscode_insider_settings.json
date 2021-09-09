@@ -7,11 +7,12 @@
   "explorer.confirmDragAndDrop": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "postcss": "css",
+    "postcss": "css"
   },
   "files.associations": {
     "*.js": "javascriptreact",
-    "*.jsx": "javascriptreact"
+    "*.jsx": "javascriptreact",
+    ".env": "env"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -50,14 +51,14 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "workbench.panel.defaultLocation": "bottom",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "helium-icon-theme",
   "workbench.statusBar.visible": true,
-  "workbench.colorTheme": "Hyper Term Theme",
+  "workbench.colorTheme": "Andromeda Colorizer",
   "workbench.editor.tabCloseButton": "left",
   "workbench.editor.tabSizing": "shrink",
 
-  // "terminal.integrated.fontFamily": "Fira Code iScript",
-  "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+  "terminal.integrated.fontFamily": "Fira Code iScript",
+  // "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.rendererType": "dom",
 
@@ -89,24 +90,9 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "right",
-  "atlascode.jira.enabled": true,
-  "atlascode.jira.jqlList": [
-    {
-      "id": "290e2c7d-3ebb-4962-b6b7-6192d5b2cf66",
-      "enabled": true,
-      "name": "My ilocalbox Issues",
-      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
-      "siteId": "124e04d6-106d-410c-a2ce-bbdc39747ea7",
-      "monitor": true
-    }
-  ],
   "editor.minimap.enabled": false,
   "extensions.ignoreRecommendations": true,
   "workbench.productIconTheme": "fluent-icons",
-  "atlascode.jira.lastCreateSiteAndProject": {
-    "siteId": "",
-    "projectKey": "DI"
-  },
   "prettier.singleQuote": true,
   "terminal.integrated.shell.osx": "zsh",
   "terminal.external.osxExec": "iTerm.app",
@@ -131,4 +117,18 @@
   "editor.renderIndentGuides": false,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "diffEditor.ignoreTrimWhitespace": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "redhat.telemetry.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "window.zoomLevel": -2,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
