@@ -11,7 +11,7 @@ My JSON file to be used in VSCode
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=josh-walters.vscode-ext-import-export
 
 2) Copy paste settings.json in vscode
-    - ctrl + shift + p
+    - (ctrl / command) + shift + p
     - type and open: user setting json
     - paste the code
 
