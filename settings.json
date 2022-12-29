@@ -1,0 +1,223 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "postcss": "css",
+        ".env": "env"
+    },
+    "files.associations": {
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        ".env": "env"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.bracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.editor.tabSizing": "shrink",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.rendererType": "dom",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "ligaturesLimited.languages": {
+        "css, javascript": {
+            "ligaturesByContext": {
+                "comment.block": {
+                    "ligatures": "0 www"
+                }
+            }
+        },
+        "html": {
+            "ligaturesByContext": {
+                "attribute_value": {
+                    "ligatures": "0 www"
+                }
+            }
+        },
+        "typescript": {
+            "inherit": "javascript",
+            "ligatures": "- !="
+        },
+        "markdown": true,
+        "plaintext, json, jsonc, json5": false
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": true,
+    "prettier.singleQuote": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableBell": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.showSlider": "always",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Cmder": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/k",
+                "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+            ],
+            "icon": "terminal-cmd"
+        },
+        "Windows Terminal": {
+            "path": "C:\\Users\\mahesh\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+        }
+    },
+    "editor.minimap.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "redhat.telemetry.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "telemetry.telemetryLevel": "off",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.fontFamily": "Menlo, Monaco, Cascadia Code, Operator Mono,Fira Code iScript,  Fira Code, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "MesloLGS NF, Cascadia Code, Operator Mono,Fira Code iScript,  Fira Code, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage.modifier",
+                    "storage.type"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right",
+    "gitlens.plusFeatures.enabled": false,
+    "editor.guides.indentation": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.linkedEditing": true,
+    "diffEditor.maxComputationTime": 0,
+    "git.ignoreRebaseWarning": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "npm.keybindingsChangedWarningShown": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "sqltools.connections": [],
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "solid",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
