@@ -19,7 +19,7 @@
     "files.associations": {
         "*.js": "javascript",
         "*.jsx": "javascriptreact",
-        ".env": "env"
+        ".env": "dotenv"
     },
     "emmet.syntaxProfiles": {
         "javascript": "jsx"
@@ -144,7 +144,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.iconTheme": "helium-icon-theme",
-    "workbench.productIconTheme": "fluent-icons",
     "security.workspace.trust.untrustedFiles": "open",
     "gitlens.gitCommands.skipConfirmations": [
         "fetch:command",
@@ -189,7 +188,6 @@
     },
     "window.menuBarVisibility": "compact",
     "workbench.sideBar.location": "right",
-    "gitlens.plusFeatures.enabled": false,
     "editor.guides.indentation": true,
     "editor.guides.bracketPairsHorizontal": true,
     "editor.guides.bracketPairs": true,
@@ -202,7 +200,6 @@
     "npm.keybindingsChangedWarningShown": true,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "sqltools.connections": [],
-    "workbench.colorTheme": "Shades of Purple (Super Dark)",
     "editor.fontSize": 17,
     "editor.lineHeight": 25,
     "editor.letterSpacing": 0.5,
@@ -219,5 +216,6 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "FireFly Pro Bright",
 }
